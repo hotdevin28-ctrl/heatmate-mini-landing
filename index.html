@@ -1,1 +1,63 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>HeatMate Landing Page</title>\n    <link rel="stylesheet" href="styles.css"> <!-- Include a CSS file for styling -->\n</head>\n<body>\n\n    <!-- Hero Section -->\n    <section id="hero">\n        <h1>Welcome to HeatMate</h1>\n        <p>Experience the warmth of innovative heating solutions.</p>\n        <a href="#cta" class="btn">Get Started</a>\n    </section>\n\n    <!-- Features Section -->\n    <section id="features">\n        <h2>Features</h2>\n        <div class="feature">Feature 1 Details</div>\n        <div class="feature">Feature 2 Details</div>\n        <div class="feature">Feature 3 Details</div>\n    </section>\n\n    <!-- Testimonials Section -->\n    <section id="testimonials">\n        <h2>What Our Users Say</h2>\n        <blockquote>Testimonial 1</blockquote>\n        <blockquote>Testimonial 2</blockquote>\n        <blockquote>Testimonial 3</blockquote>\n    </section>\n\n    <!-- Call to Action Section -->\n    <section id="cta">\n        <h2>Don't Miss Out!</h2>\n        <p>Join us today for a better heating experience.</p>\n        <a href="#contact" class="btn">Sign Up Now</a>\n    </section>\n\n    <!-- Contact Form Section -->\n    <section id="contact">\n        <h2>Contact Us</h2>\n        <form>\n            <input type="text" name="name" placeholder="Your Name" required>\n            <input type="email" name="email" placeholder="Your Email" required>\n            <textarea name="message" placeholder="Your Message"></textarea>\n            <button type="submit">Send Message</button>\n        </form>\n    </section>\n\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #D97634; color: white; padding: 20px; text-align: center; }
+        section { padding: 40px 20px; }
+        .hero { background-color: #FFF5E6; text-align: center; }
+        .features { background-color: #F7F7F7; display: flex; justify-content: space-around; }
+        .feature { width: 30%; padding: 20px; }
+        .testimonials { background-color: #D97634; color: white; text-align: center; }
+        .cta { background-color: #2C2416; color: white; text-align: center; padding: 30px; }
+        form { display: flex; flex-direction: column; align-items: center; }
+        input, textarea { margin: 10px 0; padding: 10px; width: 80%; max-width: 400px; }
+        button { padding: 10px 20px; background-color: #D97634; color: white; border: none; cursor: pointer; }
+        @media (max-width: 768px) { .features { flex-direction: column; align-items: center; } .feature { width: 80%; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Heatmate Mini</h1>
+    </header>
+
+    <section class="hero">
+        <h2>Your Ultimate Heating Solution</h2>
+        <p>Experience comfort like never before with our innovative heating technology.</p>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3>Feature 1</h3>
+            <p>Description of feature 1.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 2</h3>
+            <p>Description of feature 2.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 3</h3>
+            <p>Description of feature 3.</p>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <p>"This product changed my life!" - Happy Customer</p>
+        <p>"Excellent service and quality!" - Satisfied Client</p>
+    </section>
+
+    <section class="cta">
+        <h2>Get Started Today!</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
